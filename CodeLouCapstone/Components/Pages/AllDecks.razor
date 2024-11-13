@@ -1,0 +1,38 @@
+﻿@page "/decks"
+
+<h1 class="page-title">All Decks</h1>
+
+@if (Decks == null)
+{
+    <p><em>Loading...</em></p>
+}
+else if (count == 0)
+{
+    <p><em>No Decks Avalible</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Decks</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var deck in Decks)
+            {
+                <tr>
+                    <td>@deck.DeckId</td>
+                    <td>@deck.DeckName</td>
+                    <td>
+                        <a href="@($"decks/{deck.DeckId}")" class="btn btn-primary table-btn">
+                            <i class="fas fa-info-circle"></i>
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

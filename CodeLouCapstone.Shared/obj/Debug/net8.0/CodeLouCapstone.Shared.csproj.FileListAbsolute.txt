@@ -1,0 +1,12 @@
+C:\Users\Clay Grant\Documents\C#\CodeLouCapstone\CodeLouCapstone.Shared\bin\Debug\net8.0\CodeLouCapstone.Shared.deps.json
+C:\Users\Clay Grant\Documents\C#\CodeLouCapstone\CodeLouCapstone.Shared\bin\Debug\net8.0\CodeLouCapstone.Shared.dll
+C:\Users\Clay Grant\Documents\C#\CodeLouCapstone\CodeLouCapstone.Shared\bin\Debug\net8.0\CodeLouCapstone.Shared.pdb
+C:\Users\Clay Grant\Documents\C#\CodeLouCapstone\CodeLouCapstone.Shared\obj\Debug\net8.0\CodeLouCapstone.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Clay Grant\Documents\C#\CodeLouCapstone\CodeLouCapstone.Shared\obj\Debug\net8.0\CodeLouCapstone.Shared.AssemblyInfoInputs.cache
+C:\Users\Clay Grant\Documents\C#\CodeLouCapstone\CodeLouCapstone.Shared\obj\Debug\net8.0\CodeLouCapstone.Shared.AssemblyInfo.cs
+C:\Users\Clay Grant\Documents\C#\CodeLouCapstone\CodeLouCapstone.Shared\obj\Debug\net8.0\CodeLouCapstone.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Clay Grant\Documents\C#\CodeLouCapstone\CodeLouCapstone.Shared\obj\Debug\net8.0\CodeLouCapstone.Shared.sourcelink.json
+C:\Users\Clay Grant\Documents\C#\CodeLouCapstone\CodeLouCapstone.Shared\obj\Debug\net8.0\CodeLouCapstone.Shared.dll
+C:\Users\Clay Grant\Documents\C#\CodeLouCapstone\CodeLouCapstone.Shared\obj\Debug\net8.0\refint\CodeLouCapstone.Shared.dll
+C:\Users\Clay Grant\Documents\C#\CodeLouCapstone\CodeLouCapstone.Shared\obj\Debug\net8.0\CodeLouCapstone.Shared.pdb
+C:\Users\Clay Grant\Documents\C#\CodeLouCapstone\CodeLouCapstone.Shared\obj\Debug\net8.0\ref\CodeLouCapstone.Shared.dll

@@ -1,0 +1,32 @@
+﻿@page "/cards"
+
+<h1 class="page-title">Legal Cards</h1>
+
+@if (Cards == null)
+{
+    <p><em>Loading...</em></p>
+}
+else if (count == 0)
+{
+    <p><em>No Cards Avalible</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Legal Cards</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var card in Cards)
+            {
+                <tr>
+                    <td>@card.CardName</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

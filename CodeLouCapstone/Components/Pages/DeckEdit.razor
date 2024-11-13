@@ -1,0 +1,56 @@
+﻿@page "/deckedit"
+@page "/deckedit/{DeckId}"
+
+@using CodeLouCapstone.Shared
+
+@if (!Saved)
+{
+    <section class="deck-edit">
+        <h1 class="page-title">@Deck.DeckName</h1>
+        <EditForm Model="@Deck" OnValidSubmit="@HandleValidSubmit" OnInvalidSubmit="@HandleInvalidSubmit" FormName="DeckEdit" Context="deckSave">
+            <ValidationSummary></ValidationSummary>
+
+            <div class="form-group row">
+                <label for="deckname" class="col-sm-3">Deck Name: </label>
+                <InputText id="deckname" class="form-control col-sm-8" @bind-Value="@Deck.DeckName" placeholder="Enter deck name"></InputText>
+                <ValidationMessage class="offset-sm-3 col-sm-8" For="@(() => Deck.DeckName)" />
+            </div>
+
+            @if (Deck.DeckId != 0)
+            {
+                <ul>
+                    @foreach (string card in Deck.Cards)
+                    {
+                        <li>
+                           @*<input type="text" @bind="card" @bind:event="oninput" />*@
+                           <li>@card</li>
+                            <button @onclick="() => RemoveCard(card)">Remove Card</button>
+                        </li>
+                    }
+                </ul>
+                
+            }
+           
+            @*I need to fix this.*@
+            <EditForm Model="@newCard" OnValidSubmit="@HandleValidCardSubmit" OnInvalidSubmit="@HandleInvalidCardSubmit" FormName="CardAdd" Context="cardAdd">
+            <div>
+                <input type="text" @bind="newCard" placeholder="Enter New Card" />
+                <button @onclick="AddCard">Add Card</button>
+            </div>
+            </EditForm>
+
+            <button type="submit" class="btn btn-primary edit-btn">Save Deck</button>
+
+            @if (Deck.DeckId > 0)
+            {
+                <a class="btn btn-danger" @onclick="@DeleteDeck">Delete Deck</a>
+            }
+
+
+        </EditForm>
+    </section>
+}
+else
+{
+    <div class="alert @StatusClass">@Message</div>
+}

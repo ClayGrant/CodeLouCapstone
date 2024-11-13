@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CodeLouCapstone.App/1.0.0": {
+        "dependencies": {
+          "CodeLouCapstone.Shared": "1.0.0"
+        },
+        "runtime": {
+          "CodeLouCapstone.App.dll": {}
+        }
+      },
+      "CodeLouCapstone.Shared/1.0.0": {
+        "runtime": {
+          "CodeLouCapstone.Shared.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CodeLouCapstone.App/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CodeLouCapstone.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

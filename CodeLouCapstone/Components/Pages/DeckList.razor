@@ -1,0 +1,22 @@
+﻿@page "/decks/{DeckId}"
+
+<h1 class="page-title">Details for @Deck.DeckName</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th></th>
+            <th>Deck List</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var card in Cards)
+        {
+            <tr>
+                @*<td>@card.CardName</td>*@
+                <li>@card</li>
+            </tr>
+        }
+    </tbody>
+</table>
