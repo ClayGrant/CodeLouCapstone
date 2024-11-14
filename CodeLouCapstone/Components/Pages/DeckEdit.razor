@@ -7,7 +7,7 @@
 {
     <section class="deck-edit">
         <h1 class="page-title">@Deck.DeckName</h1>
-        <EditForm Model="@Deck" OnValidSubmit="@HandleValidSubmit" OnInvalidSubmit="@HandleInvalidSubmit" FormName="DeckEdit" Context="deckSave">
+        <EditForm Model="@Deck" OnValidSubmit="@HandleValidSubmit" OnInvalidSubmit="@HandleInvalidSubmit" FormName="DeckEdit">
             <ValidationSummary></ValidationSummary>
 
             <div class="form-group row">
@@ -32,12 +32,12 @@
             }
            
             @*I need to fix this.*@
-            <EditForm Model="@newCard" OnValidSubmit="@HandleValidCardSubmit" OnInvalidSubmit="@HandleInvalidCardSubmit" FormName="CardAdd" Context="cardAdd">
+            @*<EditForm Model="@newCard" OnValidSubmit="@HandleValidCardSubmit" OnInvalidSubmit="@HandleInvalidCardSubmit" FormName="CardAdd" Context="cardAdd">*@
             <div>
                 <input type="text" @bind="newCard" placeholder="Enter New Card" />
                 <button @onclick="AddCard">Add Card</button>
             </div>
-            </EditForm>
+            @*</EditForm>*@
 
             <button type="submit" class="btn btn-primary edit-btn">Save Deck</button>
 

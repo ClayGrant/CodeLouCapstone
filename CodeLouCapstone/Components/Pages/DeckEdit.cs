@@ -39,7 +39,8 @@ namespace CodeLouCapstone.App.Components.Pages
             else
             {
                 Deck = await DeckService.GetDeck(int.Parse(DeckId));
-                Cards = (await DeckService.GetDeckCards(int.Parse(DeckId))).ToList();
+                //Cards = (await DeckService.GetDeckCards(int.Parse(DeckId))).ToList();
+                Cards = Deck.Cards;
             }
 
             StateHasChanged();

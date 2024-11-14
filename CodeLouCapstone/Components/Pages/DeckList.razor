@@ -1,6 +1,6 @@
-﻿@page "/decks/{DeckId}"
+﻿@page "/decks/{DeckId:int}"
 
-<h1 class="page-title">Details for @Deck.DeckName</h1>
+<h1 class="page-title">Details for @uDeck.DeckName</h1>
 
 <table class="table">
     <thead>
@@ -11,12 +11,18 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var card in Cards)
+        @if (uDeck != null){
+            @foreach (var card in uDeck.Cards)
+            {
+                <tr>
+                    @*<td>@card.CardName</td>*@
+                    <li>@card</li>
+                </tr>
+            }
+        }
+        else
         {
-            <tr>
-                @*<td>@card.CardName</td>*@
-                <li>@card</li>
-            </tr>
+            <p>Loading</p>
         }
     </tbody>
 </table>

@@ -3,40 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Clay Grant\\Documents\\C#\\CodeLouCapstone\\CodeLouCapstone\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0312CDAD-BB1E-4540-8BD7-517265F3387C}|CodeLouCapstone.App.csproj|c:\\users\\clay grant\\documents\\c#\\codeloucapstone\\codeloucapstone\\components\\pages\\decklist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0312CDAD-BB1E-4540-8BD7-517265F3387C}|CodeLouCapstone.App.csproj|solutionrelative:components\\pages\\decklist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0312CDAD-BB1E-4540-8BD7-517265F3387C}|CodeLouCapstone.App.csproj|c:\\users\\clay grant\\documents\\c#\\codeloucapstone\\codeloucapstone\\components\\pages\\decklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0312CDAD-BB1E-4540-8BD7-517265F3387C}|CodeLouCapstone.App.csproj|solutionrelative:components\\pages\\decklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0312CDAD-BB1E-4540-8BD7-517265F3387C}|CodeLouCapstone.App.csproj|c:\\users\\clay grant\\documents\\c#\\codeloucapstone\\codeloucapstone\\components\\pages\\allcards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0312CDAD-BB1E-4540-8BD7-517265F3387C}|CodeLouCapstone.App.csproj|solutionrelative:components\\pages\\allcards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0312CDAD-BB1E-4540-8BD7-517265F3387C}|CodeLouCapstone.App.csproj|c:\\users\\clay grant\\documents\\c#\\codeloucapstone\\codeloucapstone\\components\\pages\\deckedit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0312CDAD-BB1E-4540-8BD7-517265F3387C}|CodeLouCapstone.App.csproj|solutionrelative:components\\pages\\deckedit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0312CDAD-BB1E-4540-8BD7-517265F3387C}|CodeLouCapstone.App.csproj|c:\\users\\clay grant\\documents\\c#\\codeloucapstone\\codeloucapstone\\components\\pages\\deckedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0312CDAD-BB1E-4540-8BD7-517265F3387C}|CodeLouCapstone.App.csproj|solutionrelative:components\\pages\\deckedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0312CDAD-BB1E-4540-8BD7-517265F3387C}|CodeLouCapstone.App.csproj|c:\\users\\clay grant\\documents\\c#\\codeloucapstone\\codeloucapstone\\components\\pages\\deckedit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0312CDAD-BB1E-4540-8BD7-517265F3387C}|CodeLouCapstone.App.csproj|solutionrelative:components\\pages\\deckedit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0312CDAD-BB1E-4540-8BD7-517265F3387C}|CodeLouCapstone.App.csproj|c:\\users\\clay grant\\documents\\c#\\codeloucapstone\\codeloucapstone\\components\\pages\\decklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0312CDAD-BB1E-4540-8BD7-517265F3387C}|CodeLouCapstone.App.csproj|solutionrelative:components\\pages\\decklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0312CDAD-BB1E-4540-8BD7-517265F3387C}|CodeLouCapstone.App.csproj|c:\\users\\clay grant\\documents\\c#\\codeloucapstone\\codeloucapstone\\components\\pages\\alldecks.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0312CDAD-BB1E-4540-8BD7-517265F3387C}|CodeLouCapstone.App.csproj|solutionrelative:components\\pages\\alldecks.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0312CDAD-BB1E-4540-8BD7-517265F3387C}|CodeLouCapstone.App.csproj|c:\\users\\clay grant\\documents\\c#\\codeloucapstone\\codeloucapstone\\components\\pages\\decklist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0312CDAD-BB1E-4540-8BD7-517265F3387C}|CodeLouCapstone.App.csproj|solutionrelative:components\\pages\\decklist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0312CDAD-BB1E-4540-8BD7-517265F3387C}|CodeLouCapstone.App.csproj|c:\\users\\clay grant\\documents\\c#\\codeloucapstone\\codeloucapstone\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0312CDAD-BB1E-4540-8BD7-517265F3387C}|CodeLouCapstone.App.csproj|solutionrelative:components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0312CDAD-BB1E-4540-8BD7-517265F3387C}|CodeLouCapstone.App.csproj|c:\\users\\clay grant\\documents\\c#\\codeloucapstone\\codeloucapstone\\components\\services\\deckservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0312CDAD-BB1E-4540-8BD7-517265F3387C}|CodeLouCapstone.App.csproj|solutionrelative:components\\services\\deckservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0312CDAD-BB1E-4540-8BD7-517265F3387C}|CodeLouCapstone.App.csproj|c:\\users\\clay grant\\documents\\c#\\codeloucapstone\\codeloucapstone\\components\\services\\cardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0312CDAD-BB1E-4540-8BD7-517265F3387C}|CodeLouCapstone.App.csproj|solutionrelative:components\\services\\cardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0312CDAD-BB1E-4540-8BD7-517265F3387C}|CodeLouCapstone.App.csproj|c:\\users\\clay grant\\documents\\c#\\codeloucapstone\\codeloucapstone\\components\\pages\\allcards.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0312CDAD-BB1E-4540-8BD7-517265F3387C}|CodeLouCapstone.App.csproj|solutionrelative:components\\pages\\allcards.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0312CDAD-BB1E-4540-8BD7-517265F3387C}|CodeLouCapstone.App.csproj|c:\\users\\clay grant\\documents\\c#\\codeloucapstone\\codeloucapstone\\components\\pages\\allcards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0312CDAD-BB1E-4540-8BD7-517265F3387C}|CodeLouCapstone.App.csproj|solutionrelative:components\\pages\\allcards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0312CDAD-BB1E-4540-8BD7-517265F3387C}|CodeLouCapstone.App.csproj|c:\\users\\clay grant\\documents\\c#\\codeloucapstone\\codeloucapstone\\components\\services\\cardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0312CDAD-BB1E-4540-8BD7-517265F3387C}|CodeLouCapstone.App.csproj|solutionrelative:components\\services\\cardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0312CDAD-BB1E-4540-8BD7-517265F3387C}|CodeLouCapstone.App.csproj|c:\\users\\clay grant\\documents\\c#\\codeloucapstone\\codeloucapstone\\components\\pages\\alldecks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -76,75 +80,88 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\Clay Grant\\Documents\\C#\\CodeLouCapstone\\CodeLouCapstone\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\Clay Grant\\Documents\\C#\\CodeLouCapstone\\CodeLouCapstone\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Components\\Layout\\NavMenu.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T18:53:36.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "DeckList.razor",
               "DocumentMoniker": "C:\\Users\\Clay Grant\\Documents\\C#\\CodeLouCapstone\\CodeLouCapstone\\Components\\Pages\\DeckList.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\DeckList.razor",
               "ToolTip": "C:\\Users\\Clay Grant\\Documents\\C#\\CodeLouCapstone\\CodeLouCapstone\\Components\\Pages\\DeckList.razor",
               "RelativeToolTip": "Components\\Pages\\DeckList.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAeAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-13T06:00:18.368Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "DeckList.cs",
               "DocumentMoniker": "C:\\Users\\Clay Grant\\Documents\\C#\\CodeLouCapstone\\CodeLouCapstone\\Components\\Pages\\DeckList.cs",
               "RelativeDocumentMoniker": "Components\\Pages\\DeckList.cs",
               "ToolTip": "C:\\Users\\Clay Grant\\Documents\\C#\\CodeLouCapstone\\CodeLouCapstone\\Components\\Pages\\DeckList.cs",
               "RelativeToolTip": "Components\\Pages\\DeckList.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-13T06:00:52.348Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "DeckEdit.razor",
               "DocumentMoniker": "C:\\Users\\Clay Grant\\Documents\\C#\\CodeLouCapstone\\CodeLouCapstone\\Components\\Pages\\DeckEdit.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\DeckEdit.razor",
               "ToolTip": "C:\\Users\\Clay Grant\\Documents\\C#\\CodeLouCapstone\\CodeLouCapstone\\Components\\Pages\\DeckEdit.razor",
               "RelativeToolTip": "Components\\Pages\\DeckEdit.razor",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAAAkAAAB+AAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACIAAACiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-13T05:46:13.66Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "DeckEdit.cs",
               "DocumentMoniker": "C:\\Users\\Clay Grant\\Documents\\C#\\CodeLouCapstone\\CodeLouCapstone\\Components\\Pages\\DeckEdit.cs",
               "RelativeDocumentMoniker": "Components\\Pages\\DeckEdit.cs",
               "ToolTip": "C:\\Users\\Clay Grant\\Documents\\C#\\CodeLouCapstone\\CodeLouCapstone\\Components\\Pages\\DeckEdit.cs",
               "RelativeToolTip": "Components\\Pages\\DeckEdit.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEEAAAAaAAAA",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAmwLEAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-13T05:44:40.801Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "AllDecks.razor",
               "DocumentMoniker": "C:\\Users\\Clay Grant\\Documents\\C#\\CodeLouCapstone\\CodeLouCapstone\\Components\\Pages\\AllDecks.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\AllDecks.razor",
               "ToolTip": "C:\\Users\\Clay Grant\\Documents\\C#\\CodeLouCapstone\\CodeLouCapstone\\Components\\Pages\\AllDecks.razor",
               "RelativeToolTip": "Components\\Pages\\AllDecks.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-13T05:42:05.815Z"
+              "WhenOpened": "2024-11-13T05:42:05.815Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "CardService.cs",
               "DocumentMoniker": "C:\\Users\\Clay Grant\\Documents\\C#\\CodeLouCapstone\\CodeLouCapstone\\Components\\Services\\CardService.cs",
               "RelativeDocumentMoniker": "Components\\Services\\CardService.cs",
@@ -156,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "AllCards.razor",
               "DocumentMoniker": "C:\\Users\\Clay Grant\\Documents\\C#\\CodeLouCapstone\\CodeLouCapstone\\Components\\Pages\\AllCards.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\AllCards.razor",
@@ -168,7 +185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "AllCards.cs",
               "DocumentMoniker": "C:\\Users\\Clay Grant\\Documents\\C#\\CodeLouCapstone\\CodeLouCapstone\\Components\\Pages\\AllCards.cs",
               "RelativeDocumentMoniker": "Components\\Pages\\AllCards.cs",
@@ -176,12 +193,11 @@
               "RelativeToolTip": "Components\\Pages\\AllCards.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T04:19:10.98Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T04:19:10.98Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "AllDecks.cs",
               "DocumentMoniker": "C:\\Users\\Clay Grant\\Documents\\C#\\CodeLouCapstone\\CodeLouCapstone\\Components\\Pages\\AllDecks.cs",
               "RelativeDocumentMoniker": "Components\\Pages\\AllDecks.cs",
@@ -199,13 +215,13 @@
               "RelativeDocumentMoniker": "Components\\Services\\DeckService.cs",
               "ToolTip": "C:\\Users\\Clay Grant\\Documents\\C#\\CodeLouCapstone\\CodeLouCapstone\\Components\\Services\\DeckService.cs",
               "RelativeToolTip": "Components\\Services\\DeckService.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAuwBcAAABAAAAA",
+              "ViewState": "AQIAACYAAAAAAAAAAAAkwBcAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-30T22:45:52.698Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Clay Grant\\Documents\\C#\\CodeLouCapstone\\CodeLouCapstone.Api\\Program.cs",
               "RelativeDocumentMoniker": "..\\CodeLouCapstone.Api\\Program.cs",
@@ -217,7 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "20241111172847_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\Clay Grant\\Documents\\C#\\CodeLouCapstone\\CodeLouCapstone.Api\\Migrations\\20241111172847_InitialCreate.cs",
               "RelativeDocumentMoniker": "..\\CodeLouCapstone.Api\\Migrations\\20241111172847_InitialCreate.cs",
@@ -229,7 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Clay Grant\\Documents\\C#\\CodeLouCapstone\\CodeLouCapstone.Api\\appsettings.json",
               "RelativeDocumentMoniker": "..\\CodeLouCapstone.Api\\appsettings.json",
@@ -241,7 +257,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "CodeLouCapstone.Api.http",
               "DocumentMoniker": "C:\\Users\\Clay Grant\\Documents\\C#\\CodeLouCapstone\\CodeLouCapstone.Api\\CodeLouCapstone.Api.http",
               "RelativeDocumentMoniker": "..\\CodeLouCapstone.Api\\CodeLouCapstone.Api.http",
@@ -253,7 +269,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Deck.cs",
               "DocumentMoniker": "C:\\Users\\Clay Grant\\Documents\\C#\\CodeLouCapstone\\CodeLouCapstone.Shared\\Deck.cs",
               "RelativeDocumentMoniker": "..\\CodeLouCapstone.Shared\\Deck.cs",
@@ -265,7 +281,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "_Imports.razor",
               "DocumentMoniker": "C:\\Users\\Clay Grant\\Documents\\C#\\CodeLouCapstone\\CodeLouCapstone\\Components\\_Imports.razor",
               "RelativeDocumentMoniker": "Components\\_Imports.razor",
@@ -277,7 +293,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Routes.razor",
               "DocumentMoniker": "C:\\Users\\Clay Grant\\Documents\\C#\\CodeLouCapstone\\CodeLouCapstone\\Components\\Routes.razor",
               "RelativeDocumentMoniker": "Components\\Routes.razor",
@@ -289,7 +305,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "CodeLouCapstone.Api.csproj",
               "DocumentMoniker": "C:\\Users\\Clay Grant\\Documents\\C#\\CodeLouCapstone\\CodeLouCapstone.Api\\CodeLouCapstone.Api.csproj",
               "RelativeDocumentMoniker": "..\\CodeLouCapstone.Api\\CodeLouCapstone.Api.csproj",
