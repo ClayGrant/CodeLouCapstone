@@ -54,3 +54,67 @@ else
 {
     <div class="alert @StatusClass">@Message</div>
 }
+
+@*
+@page "/item-editor"
+
+@using System.ComponentModel.DataAnnotations
+
+<EditForm Model="itemModel" OnValidSubmit="SaveItem">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <!-- Fields for the main item -->
+    <div>
+        <label>Name:</label>
+        <InputText @bind-Value="itemModel.Name" />
+    </div>
+
+    <div>
+        <h3>SubItems</h3>
+        <ul>
+            @foreach (var subItem in itemModel.SubItems)
+            {
+                <li>
+                    <InputText @bind-Value="subItem.Name" placeholder="SubItem Name" />
+                    <InputNumber @bind-Value="subItem.Value" placeholder="Value" />
+                    <button type="button" @onclick="() => RemoveSubItem(subItem)">Remove</button>
+                </li>
+            }
+        </ul>
+
+        <button type="button" @onclick="AddSubItem">Add SubItem</button>
+    </div>
+
+    <!-- Submit button for saving the item -->
+    <button type="submit">Save Item</button>
+</EditForm>
+
+@code {
+    private ItemModel itemModel = new ItemModel();
+
+    private void AddSubItem()
+    {
+        // Add a new SubItem to the list
+        itemModel.SubItems.Add(new SubItem());
+    }
+
+    private void RemoveSubItem(SubItem subItem)
+    {
+        // Remove the selected SubItem from the list
+        itemModel.SubItems.Remove(subItem);
+    }
+
+    private void SaveItem()
+    {
+        // Handle saving the entire item
+        Console.WriteLine($"Saving Item: {itemModel.Name}");
+        foreach (var subItem in itemModel.SubItems)
+        {
+            Console.WriteLine($"SubItem: {subItem.Name}, {subItem.Value}");
+        }
+        // You can add logic here to persist the item (e.g., to a database)
+    }
+}
+
+*@
