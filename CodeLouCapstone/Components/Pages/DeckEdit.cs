@@ -23,6 +23,7 @@ namespace CodeLouCapstone.App.Components.Pages
         protected bool Saved;
         private List<Card> _cards = new List<Card>();
         private string newCard;
+        private List<string> cardAlt = new List<string>();
 
         protected async override Task OnInitializedAsync()
         {
@@ -39,50 +40,29 @@ namespace CodeLouCapstone.App.Components.Pages
             else
             {
                 Deck = await DeckService.GetDeck(int.Parse(DeckId));
-                //Cards = (await DeckService.GetDeckCards(int.Parse(DeckId))).ToList();
                 Cards = Deck.Cards;
+                cardAlt = Deck.Cards;
             }
 
             StateHasChanged();
-        }
-
-        protected async Task HandleValidCardSubmit()
-        {
-            Saved = false;
-
-            var validCard = ValidateCards(newCard);
-
-            if (validCard == true)
-            {
-                Saved = true;
-            }
-            else
-            {
-                Saved = false;
-            }
-        }
-
-        protected async Task HandleInvalidCardSubmit()
-        {
-            Saved = false;
         }
 
         protected async Task HandleValidSubmit()
         {
             Saved = false;
 
-            //need to differentiate between validsubmit for a deck and a card
-
             var validDeck = ValidateDeck(Deck);
 
             if (Deck.DeckId == 0 && validDeck == true)
             {
+                Deck.Cards = Cards;
                 var newDeck = await DeckService.AddDeck(Deck);
                 if (newDeck != null)
                 {
                     StatusClass = "alert-success";
                     Message = "New deck added successfully.";
                     Saved = true;
+                    StateHasChanged();
                 }
                 else
                 {
@@ -93,10 +73,12 @@ namespace CodeLouCapstone.App.Components.Pages
             }
             else if (validDeck == true)
             {
+                Deck.Cards = Cards;
                 await DeckService.EditDeck(Deck);
                 StatusClass = "alert-success";
                 Message = "Deck edited successfully.";
                 Saved = true;
+                StateHasChanged();
             }
             else
             {
@@ -127,7 +109,7 @@ namespace CodeLouCapstone.App.Components.Pages
             NavigationManager.NavigateTo("/decks");
         }
 
-        private async Task AddCard()
+        private void AddCard()
         {
             if (!string.IsNullOrEmpty(newCard))
             {
@@ -141,23 +123,21 @@ namespace CodeLouCapstone.App.Components.Pages
                 }
                 else
                 {
-                    Deck.Cards.Add(newCard);
-                    await DeckService.EditDeck(Deck);
                     Cards.Add(newCard);
                     newCard = string.Empty;
+                    StateHasChanged();
                 }
             }
         }
 
-        private async Task RemoveCard(string card)
+        private void RemoveCard(string card)
         {
-            Deck.Cards.Remove(card);
-            await DeckService.EditDeck(Deck);
 
             var cardDeleted = Cards.FirstOrDefault(c => c == card);
             if (cardDeleted != null)
             {
                 Cards.Remove(cardDeleted);
+                StateHasChanged();
             }
         }
 
@@ -175,6 +155,14 @@ namespace CodeLouCapstone.App.Components.Pages
 
         private Boolean ValidateDeck(Deck deck)
         {
+            if(deck == null || deck.Cards == null)
+            {
+                return false;
+            }
+            if(deck.Cards.Count == 0)
+            {
+                return false;
+            }
             if (deck.Cards.Count < 60)
             {
                 return false;
