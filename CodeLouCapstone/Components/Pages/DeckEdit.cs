@@ -2,6 +2,8 @@
 using Microsoft.AspNetCore.Components;
 using CodeLouCapstone.Shared;
 
+//TODO: Get Deckname editing right, figure out why it's duplicating.
+
 namespace CodeLouCapstone.App.Components.Pages
 {
     public partial class DeckEdit
@@ -15,8 +17,12 @@ namespace CodeLouCapstone.App.Components.Pages
         [Inject]
         public NavigationManager NavigationManager { get; set; }
 
+        [Inject]
+        public ICardService CardService { get; set; }
+
         public Deck Deck { get; set; } = new Deck();
         public List<string> Cards { get; set; } = new List<string>();
+        public List<string> LegalCards { get; set; } = new List<string>();
 
         protected string Message = string.Empty;
         protected string StatusClass = string.Empty;
@@ -33,15 +39,23 @@ namespace CodeLouCapstone.App.Components.Pages
 
             int.TryParse(DeckId, out var deckId);
 
+            _cards = (await CardService.GetAllCards()).ToList();
+            foreach (var card in _cards)
+            {
+                LegalCards.Add(card.CardName);
+            }
+
             if (deckId == 0)
             {
                 Deck = new Deck();
+                Cards = new List<string>();
+                //Deck.DeckName = "New Deck";
+                Deck.DeckId = 0;
             }
             else
             {
                 Deck = await DeckService.GetDeck(int.Parse(DeckId));
                 Cards = Deck.Cards;
-                cardAlt = Deck.Cards;
             }
 
             StateHasChanged();
@@ -55,7 +69,10 @@ namespace CodeLouCapstone.App.Components.Pages
 
             if (Deck.DeckId == 0 && validDeck == true)
             {
+                var numDecks = (await DeckService.GetAllDecks()).Count();
+                Deck.DeckId += numDecks;
                 Deck.Cards = Cards;
+                Deck.DeckName = deckname;
                 var newDeck = await DeckService.AddDeck(Deck);
                 if (newDeck != null)
                 {
@@ -143,7 +160,7 @@ namespace CodeLouCapstone.App.Components.Pages
 
         private Boolean ValidateCards(string card)
         {
-            foreach (string cardd in Cards)
+            foreach (var cardd in LegalCards)
             {
                 if (card == cardd)
                 {

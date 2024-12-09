@@ -6,7 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorComponents().AddInteractiveServerComponents();
-//builder.Services.AddRazorComponents().AddInteractiveWebAssemblyComponents();
+//.AddInteractiveWebAssemblyComponents();
 builder.Services.AddHttpClient<IDeckService, DeckService>(client => client.BaseAddress = new Uri("https://localhost:7226/"));
 builder.Services.AddHttpClient<ICardService, CardService>(client => client.BaseAddress = new Uri("https://localhost:7226/"));
 
@@ -26,7 +26,7 @@ app.UseStaticFiles();
 app.UseAntiforgery();
 
 app.MapRazorComponents<App>()
-    .AddInteractiveServerRenderMode()
+    .AddInteractiveServerRenderMode();
     //.AddInteractiveWebAssemblyRenderMode();
 
 app.Run();

@@ -1,10 +1,3 @@
-C:\Users\Clay Grant\Documents\C#\CodeLouCapstone\CodeLouCapstone\obj\Debug\net8.0\CodeLouCapstone.App.csproj.AssemblyReference.cache
-C:\Users\Clay Grant\Documents\C#\CodeLouCapstone\CodeLouCapstone\obj\Debug\net8.0\CodeLouCapstone.App.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Clay Grant\Documents\C#\CodeLouCapstone\CodeLouCapstone\obj\Debug\net8.0\CodeLouCapstone.App.AssemblyInfoInputs.cache
-C:\Users\Clay Grant\Documents\C#\CodeLouCapstone\CodeLouCapstone\obj\Debug\net8.0\CodeLouCapstone.App.AssemblyInfo.cs
-C:\Users\Clay Grant\Documents\C#\CodeLouCapstone\CodeLouCapstone\obj\Debug\net8.0\CodeLouCapstone.App.csproj.CoreCompileInputs.cache
-C:\Users\Clay Grant\Documents\C#\CodeLouCapstone\CodeLouCapstone\obj\Debug\net8.0\CodeLouCapstone.App.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Clay Grant\Documents\C#\CodeLouCapstone\CodeLouCapstone\obj\Debug\net8.0\CodeLouCapstone.App.sourcelink.json
 C:\Users\Clay Grant\Documents\C#\CodeLouCapstone\CodeLouCapstone\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\Clay Grant\Documents\C#\CodeLouCapstone\CodeLouCapstone\bin\Debug\net8.0\appsettings.json
 C:\Users\Clay Grant\Documents\C#\CodeLouCapstone\CodeLouCapstone\bin\Debug\net8.0\CodeLouCapstone.App.staticwebassets.runtime.json
@@ -15,6 +8,13 @@ C:\Users\Clay Grant\Documents\C#\CodeLouCapstone\CodeLouCapstone\bin\Debug\net8.
 C:\Users\Clay Grant\Documents\C#\CodeLouCapstone\CodeLouCapstone\bin\Debug\net8.0\CodeLouCapstone.App.pdb
 C:\Users\Clay Grant\Documents\C#\CodeLouCapstone\CodeLouCapstone\bin\Debug\net8.0\CodeLouCapstone.Shared.dll
 C:\Users\Clay Grant\Documents\C#\CodeLouCapstone\CodeLouCapstone\bin\Debug\net8.0\CodeLouCapstone.Shared.pdb
+C:\Users\Clay Grant\Documents\C#\CodeLouCapstone\CodeLouCapstone\obj\Debug\net8.0\CodeLouCapstone.App.csproj.AssemblyReference.cache
+C:\Users\Clay Grant\Documents\C#\CodeLouCapstone\CodeLouCapstone\obj\Debug\net8.0\CodeLouCapstone.App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Clay Grant\Documents\C#\CodeLouCapstone\CodeLouCapstone\obj\Debug\net8.0\CodeLouCapstone.App.AssemblyInfoInputs.cache
+C:\Users\Clay Grant\Documents\C#\CodeLouCapstone\CodeLouCapstone\obj\Debug\net8.0\CodeLouCapstone.App.AssemblyInfo.cs
+C:\Users\Clay Grant\Documents\C#\CodeLouCapstone\CodeLouCapstone\obj\Debug\net8.0\CodeLouCapstone.App.csproj.CoreCompileInputs.cache
+C:\Users\Clay Grant\Documents\C#\CodeLouCapstone\CodeLouCapstone\obj\Debug\net8.0\CodeLouCapstone.App.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Clay Grant\Documents\C#\CodeLouCapstone\CodeLouCapstone\obj\Debug\net8.0\CodeLouCapstone.App.sourcelink.json
 C:\Users\Clay Grant\Documents\C#\CodeLouCapstone\CodeLouCapstone\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Clay Grant\Documents\C#\CodeLouCapstone\CodeLouCapstone\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Clay Grant\Documents\C#\CodeLouCapstone\CodeLouCapstone\obj\Debug\net8.0\staticwebassets\msbuild.CodeLouCapstone.App.Microsoft.AspNetCore.StaticWebAssets.props

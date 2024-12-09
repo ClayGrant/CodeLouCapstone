@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CodeLouCapstone.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+deda1395ace205c4c6f665eed71197778122ea2d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+63fc1601b2823d062a98f9543bdbf56e48e6b830")]
 [assembly: System.Reflection.AssemblyProductAttribute("CodeLouCapstone.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CodeLouCapstone.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
