@@ -49,7 +49,6 @@ namespace CodeLouCapstone.App.Components.Pages
             {
                 Deck = new Deck();
                 Cards = new List<string>();
-                //Deck.DeckName = "New Deck";
                 Deck.DeckId = 0;
             }
             else
@@ -70,9 +69,8 @@ namespace CodeLouCapstone.App.Components.Pages
             if (Deck.DeckId == 0 && validDeck == true)
             {
                 var numDecks = (await DeckService.GetAllDecks()).Count();
-                Deck.DeckId += numDecks;
+                Deck.DeckId = numDecks + 1;
                 Deck.Cards = Cards;
-                Deck.DeckName = deckname;
                 var newDeck = await DeckService.AddDeck(Deck);
                 if (newDeck != null)
                 {
@@ -172,21 +170,33 @@ namespace CodeLouCapstone.App.Components.Pages
 
         private Boolean ValidateDeck(Deck deck)
         {
-            if(deck == null || deck.Cards == null)
+            if(deck == null || Cards == null)
             {
                 return false;
             }
-            if(deck.Cards.Count == 0)
+            if(Cards.Count == 0)
             {
                 return false;
             }
-            if (deck.Cards.Count < 60)
+            if (Cards.Count < 60)
+            {
+                return false;
+            }
+            bool MaxOccurances = CheckForFourOfRule();
+            if (MaxOccurances == false)
             {
                 return false;
             }
 
-            //ValidateCards(deck.Cards);
             return true;
+        }
+
+        private bool CheckForFourOfRule()
+        {
+            var grouped = Cards.GroupBy(c => c).Select(group => new { Value = group.Key, Count = group.Count() });
+            List <string> exceptions = new List<string> {"Forest", "Plains", "Swamp", "Island", "Mountain"};
+
+            return grouped.All(group => exceptions.Contains(group.Value) || group.Count <= 4);
         }
     }
 }

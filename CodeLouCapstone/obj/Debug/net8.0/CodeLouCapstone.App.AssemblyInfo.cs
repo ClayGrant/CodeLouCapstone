@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CodeLouCapstone.App")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+63fc1601b2823d062a98f9543bdbf56e48e6b830")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+056761521eb2e0852e53271840b206cef65a7600")]
 [assembly: System.Reflection.AssemblyProductAttribute("CodeLouCapstone.App")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CodeLouCapstone.App")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

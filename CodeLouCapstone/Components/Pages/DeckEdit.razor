@@ -18,8 +18,9 @@
                 <ValidationMessage class="offset-sm-3 col-sm-8" For="@(() => Deck.DeckName)" />
             </div>
 
-            @if (Deck.DeckId != 0)
-            {
+            <div>
+                <span>@Cards.Count cards in the deck. (minimum of 60)</span>
+            </div>
                 <ul>
                     @foreach (string card in Cards)
                     {
@@ -30,7 +31,6 @@
                     }
                 </ul>
                 
-            }
            
             <div>
                 <input type="text" @bind="newCard" placeholder="Enter New Card" />
