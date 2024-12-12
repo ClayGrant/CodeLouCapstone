@@ -44,6 +44,11 @@ Save and Load Decks: Your deck will be saved to the local Database file.
 
 Notes
 Ignore CodeLouCapstone.App2
-All cards must be taken from the All Cards page
+
 For ease of testing, any of the following cards 60 times is a legal deck:
 Forest, Island, Plains, Swamp, Mountain
+
+The rules used for a valid deck are:
+All cards must be taken from the All Cards page
+Minimum of 60 cards
+Aside from the 5 cards listed above, a card can only be in a deck a maximum of 4 times
