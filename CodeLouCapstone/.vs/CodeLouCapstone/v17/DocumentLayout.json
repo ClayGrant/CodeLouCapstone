@@ -3,6 +3,13 @@
   "WorkspaceRootPath": "C:\\Users\\Clay Grant\\Documents\\C#\\CodeLouCapstone\\CodeLouCapstone\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0312CDAD-BB1E-4540-8BD7-517265F3387C}|CodeLouCapstone.App.csproj|c:\\users\\clay grant\\documents\\c#\\codeloucapstone\\codeloucapstone\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0312CDAD-BB1E-4540-8BD7-517265F3387C}|CodeLouCapstone.App.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2919EFE6-1F5A-497F-87EC-7BBC1847A72F}|..\\CodeLouCapstone.Api\\CodeLouCapstone.Api.csproj|c:\\users\\clay grant\\documents\\c#\\codeloucapstone\\codeloucapstone.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0312CDAD-BB1E-4540-8BD7-517265F3387C}|CodeLouCapstone.App.csproj|c:\\users\\clay grant\\documents\\c#\\codeloucapstone\\codeloucapstone\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0312CDAD-BB1E-4540-8BD7-517265F3387C}|CodeLouCapstone.App.csproj|solutionrelative:components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -39,6 +46,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Clay Grant\\Documents\\C#\\CodeLouCapstone\\CodeLouCapstone\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Clay Grant\\Documents\\C#\\CodeLouCapstone\\CodeLouCapstone\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAB3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T20:39:15.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Clay Grant\\Documents\\C#\\CodeLouCapstone\\CodeLouCapstone.Api\\Program.cs",
+              "RelativeDocumentMoniker": "..\\CodeLouCapstone.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\Clay Grant\\Documents\\C#\\CodeLouCapstone\\CodeLouCapstone.Api\\Program.cs",
+              "RelativeToolTip": "..\\CodeLouCapstone.Api\\Program.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T20:39:03.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "App.razor",
               "DocumentMoniker": "C:\\Users\\Clay Grant\\Documents\\C#\\CodeLouCapstone\\CodeLouCapstone\\Components\\App.razor",
               "RelativeDocumentMoniker": "Components\\App.razor",
@@ -51,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "AllDecks.cs",
               "DocumentMoniker": "C:\\Users\\Clay Grant\\Documents\\C#\\CodeLouCapstone\\CodeLouCapstone\\Components\\Pages\\AllDecks.cs",
               "RelativeDocumentMoniker": "Components\\Pages\\AllDecks.cs",
@@ -59,12 +92,11 @@
               "RelativeToolTip": "Components\\Pages\\AllDecks.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T02:05:20.823Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T02:05:20.823Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "AllDecks.razor",
               "DocumentMoniker": "C:\\Users\\Clay Grant\\Documents\\C#\\CodeLouCapstone\\CodeLouCapstone\\Components\\Pages\\AllDecks.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\AllDecks.razor",
@@ -72,12 +104,11 @@
               "RelativeToolTip": "Components\\Pages\\AllDecks.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-12T02:05:01.829Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T02:05:01.829Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\Clay Grant\\Documents\\C#\\CodeLouCapstone\\CodeLouCapstone\\Components\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "Components\\Layout\\MainLayout.razor",
@@ -85,12 +116,11 @@
               "RelativeToolTip": "Components\\Layout\\MainLayout.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-12T02:04:39.725Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T02:04:39.725Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "DeckEdit.razor",
               "DocumentMoniker": "C:\\Users\\Clay Grant\\Documents\\C#\\CodeLouCapstone\\CodeLouCapstone\\Components\\Pages\\DeckEdit.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\DeckEdit.razor",
@@ -102,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "DeckEdit.cs",
               "DocumentMoniker": "C:\\Users\\Clay Grant\\Documents\\C#\\CodeLouCapstone\\CodeLouCapstone\\Components\\Pages\\DeckEdit.cs",
               "RelativeDocumentMoniker": "Components\\Pages\\DeckEdit.cs",
@@ -110,8 +140,7 @@
               "RelativeToolTip": "Components\\Pages\\DeckEdit.cs",
               "ViewState": "AQIAABgAAAAAAAAAAAAmwLsAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T05:44:40.801Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T05:44:40.801Z"
             }
           ]
         }
